@@ -1,11 +1,11 @@
 #!/bin/bash
 
-OS="$(lsb_release -rs)"
-echo $OS
-
 echo "Performing upgrade"
 sudo apt update
 sudo apt full-upgrade
+
+OS="$(lsb_release -rs)"
+echo $OS
 
 if [ $OS = "18.04" ]; then
     echo "Installing ROS Melodic"
