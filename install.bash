@@ -1,6 +1,4 @@
 #!/bin/bash
-#value=$(<passed.dat)
-
 
 OS="$(lsb_release -rs)"
 echo $OS

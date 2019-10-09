@@ -13,6 +13,8 @@ Execute the script `install.bash` for that.
 
 Manually installed and configured programs:
 
-* VS Code
-* Zotero
-* LaTeX
+* VS Code: https://code.visualstudio.com
+* Zotero: https://www.zotero.org/download/
+* LaTeX: https://www.tug.org/texlive/acquire-netinstall.html
+* Telegram: https://telegram.org/apps
+* 
