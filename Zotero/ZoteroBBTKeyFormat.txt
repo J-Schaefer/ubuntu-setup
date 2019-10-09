@@ -1,0 +1,1 @@
+[auth:nopunctordash][authForeIni][year][month:capitalize][shorttitle3_3]
