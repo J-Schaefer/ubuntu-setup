@@ -8,8 +8,13 @@ OS="$(lsb_release -rs)"
 echo $OS
 
 if [ $OS = "18.04" ]; then
+    echo ""
+    echo "--------------------------------------------------"
+    echo "--------------------------------------------------"
     echo "Installing ROS Melodic"
     echo "--------------------------------------------------"
+    echo "--------------------------------------------------"
+    echo ""
     cd ~
     
     echo "Looking for ROS Melodic installation"
@@ -21,8 +26,14 @@ if [ $OS = "18.04" ]; then
     
     if [ -d "$DIRECTORY" ]; then
         # Control will enter here if $DIRECTORY exists.
+        echo ""
+        echo "--------------------------------------------------"
+        echo "--------------------------------------------------"
+        
         echo "ROS Melodic allready installed, skipping this"
         echo "--------------------------------------------------"
+        echo "--------------------------------------------------"
+        echo ""
     else
         echo "Installing Melodic - this might take a while"
         sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -41,10 +52,16 @@ if [ $OS = "18.04" ]; then
         source ~/.bashrc
         echo $ROS_PACKAGE_PATH
         
+        echo ""
+        echo "--------------------------------------------------"
+        echo "--------------------------------------------------"
         echo "Installing additional Dependencies"
         
         sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
         
+        echo ""
+        echo "--------------------------------------------------"
+        echo "--------------------------------------------------"
         echo "Setting up catkin workspace"
         
         mkdir -p ~/catkin_ws/src
@@ -57,24 +74,49 @@ if [ $OS = "18.04" ]; then
         
     fi
     
+    echo ""
+    echo "--------------------------------------------------"
+    echo "--------------------------------------------------"
     echo "Finished installing all requirements"
     echo "--------------------------------------------------"
     echo "--------------------------------------------------"
+    echo ""
     
 else
     
-    echo "WRONG OPERATING SYSTEM VERSION - ABORTING"
+    echo "Wrong operating system version - aborting."
     
 fi
 
+
+echo ""
+echo "--------------------------------------------------"
+echo "--------------------------------------------------"
 echo "Installing guake"
 sudo apt-get install guake
 sudo cp /usr/share/applications/guake.desktop /etc/xdg/autostart/
+echo "--------------------------------------------------"
+echo "--------------------------------------------------"
+echo ""
 
+
+echo ""
+echo "--------------------------------------------------"
+echo "--------------------------------------------------"
 echo "Installing gnome tweak tool"
 sudo apt-get install gnome-tweak-tool
+echo "--------------------------------------------------"
+echo "--------------------------------------------------"
+echo ""
 
-echo "Installing gnome tweak tool"
+
+echo ""
+echo "--------------------------------------------------"
+echo "--------------------------------------------------"
+echo "Installing Seafile Gui"
 sudo add-apt-repository ppa:seafile/seafile-client
 sudo apt-get update
 sudo apt-get install seafile-gui
+echo "--------------------------------------------------"
+echo "--------------------------------------------------"
+echo ""
