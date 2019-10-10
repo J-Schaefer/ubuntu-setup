@@ -2,7 +2,7 @@
 
 ## Necessary programs to install
 
-### Auto install
+### Automatically installed programs
 
 List of basic programs that will be installed automatically:
 
@@ -15,11 +15,19 @@ List of basic programs that will be installed automatically:
 
 Execute the script `install.bash` for that.
 
-### Manual install
+### Manually installed programs
 
 * VS Code: <https://code.visualstudio.com>
   * Install or sync extensions
 * Zotero: <https://www.zotero.org/download/>
+  * Start script `zotero`
+  * Install extension <https://github.com/retorquere/zotero-better-bibtex/releases>
+  * Change Key Format to : `[auth:nopunctordash][authForeIni][year][month:capitalize][shorttitle3_3]`
+  * Add js content to Better BibTeX --> Advanced --> Postscript
+  * Tick the option `Deterministically order references and field...`
+  * Change Skip word list
+  * AFTER that add your account or your items
+  * Otherwise refresh bibtex keys
 * LaTeX: <https://www.tug.org/texlive/acquire-netinstall.html>
 * Telegram: <https://telegram.org/apps>
 
@@ -31,7 +39,12 @@ First install the package Chrome-Gnome-Shell when you're using Chrome: <https://
 sudo apt-get install chrome-gnome-shell
 ````
 
-Next install the necessary browser extension: <https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep> in Chrome or <https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/> when you're using Firefox.
+Next install the necessary browser extension:
+
+Chrome: <https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep>
+
+Firefox:
+<https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/>
 
 Then you can install the gnome extensions
 
@@ -42,13 +55,17 @@ Then you can install the gnome extensions
   gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
   ````
 
-## Set up Ubuntu
+### Set up Ubuntu
+
+#### Enable asterisks in passwords
+
+Enter
 
 ````bash
 sudo visudo
 ````
 
-Enter the line
+add the line
 
 ````bash
 Defaults        pwfeedback
@@ -61,6 +78,10 @@ Defaults        env_reset
 ````
 
 and save the file.
+
+#### Enable Super key for drag and drop
+
+In Gnome Tweaks in `Windows` enable `Windows Action Key`
 
 ## Set up Thunderbird
 
