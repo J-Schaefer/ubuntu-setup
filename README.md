@@ -42,6 +42,26 @@ Then you can install the gnome extensions
   gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
   ````
 
+## Set up Ubuntu
+
+````bash
+sudo visudo
+````
+
+Enter the line
+
+````bash
+Defaults        pwfeedback
+````
+
+beneath the line
+
+````bash
+Defaults        env_reset
+````
+
+and save the file.
+
 ## Set up Thunderbird
 
 * Signatures
