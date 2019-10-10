@@ -55,6 +55,8 @@ Then you can install the gnome extensions
   gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
   ````
 
+* User Themes <https://extensions.gnome.org/extension/19/user-themes/>
+
 ### Set up Ubuntu
 
 #### Enable asterisks in passwords
