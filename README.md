@@ -1,8 +1,6 @@
 # Setting up a new computer with Ubuntu 18.04
 
-## Necessary programs to install
-
-### Automatically installed programs
+## Automatically installed programs
 
 List of basic programs that will be installed automatically:
 
@@ -12,10 +10,11 @@ List of basic programs that will be installed automatically:
 * Seafile client
 * Shutter
 * Guake
+* Shutter
 
 Execute the script `install.bash` for that.
 
-### Manually installed programs
+## Manually to install programs
 
 * VS Code: <https://code.visualstudio.com>
   * Install or sync extensions
