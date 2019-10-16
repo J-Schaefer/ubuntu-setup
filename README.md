@@ -7,6 +7,7 @@ List of basic programs that will be installed automatically:
 * ROS Melodic
 * Gnome-Tweaks
 * hardinfo
+* htop
 * Seafile client
 * Shutter
 * Guake

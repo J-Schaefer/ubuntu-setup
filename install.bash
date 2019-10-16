@@ -40,7 +40,7 @@ if [ $OS = "18.04" ]; then
         
         sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
         
-        sudo apt-get update
+        sudo apt update
         
         sudo apt install ros-melodic-desktop-full
         
@@ -93,7 +93,7 @@ echo ""
 echo "--------------------------------------------------"
 echo "--------------------------------------------------"
 echo "Installing guake"
-sudo apt-get install guake
+sudo apt install guake
 sudo cp /usr/share/applications/guake.desktop /etc/xdg/autostart/
 echo "--------------------------------------------------"
 echo "--------------------------------------------------"
@@ -104,7 +104,25 @@ echo ""
 echo "--------------------------------------------------"
 echo "--------------------------------------------------"
 echo "Installing gnome tweak tool"
-sudo apt-get install gnome-tweak-tool
+sudo apt install gnome-tweak-tool
+echo "--------------------------------------------------"
+echo "--------------------------------------------------"
+echo ""
+
+echo ""
+echo "--------------------------------------------------"
+echo "--------------------------------------------------"
+echo "Installing htop"
+sudo apt install htop
+echo "--------------------------------------------------"
+echo "--------------------------------------------------"
+echo ""
+
+echo ""
+echo "--------------------------------------------------"
+echo "--------------------------------------------------"
+echo "Installing hardinfo"
+sudo apt install hardinfo
 echo "--------------------------------------------------"
 echo "--------------------------------------------------"
 echo ""
@@ -115,8 +133,8 @@ echo "--------------------------------------------------"
 echo "--------------------------------------------------"
 echo "Installing Seafile Gui"
 sudo add-apt-repository ppa:seafile/seafile-client
-sudo apt-get update
-sudo apt-get install seafile-gui
+sudo apt update
+sudo apt install seafile-gui
 echo "--------------------------------------------------"
 echo "--------------------------------------------------"
 echo ""
@@ -125,7 +143,7 @@ echo ""
 echo "--------------------------------------------------"
 echo "--------------------------------------------------"
 echo "Installing Shutter"
-sudo apt-get sudo apt-get install shutter
+sudo apt install shutter
 echo "--------------------------------------------------"
 echo "--------------------------------------------------"
 echo ""
