@@ -1,10 +1,16 @@
-# Setting up a new computer with Ubuntu 18.04
+# Setting up a new computer with Ubuntu
+
+## Setting up ROS
+
+To install ROS start the script `install_ros.bash`.
+The script will install Melodic or Kinetic depending on the Ubuntu version.
+
+To install the Frank_ROS stuff, execute the script `install_franka.bash`.
 
 ## Automatically installed programs
 
 List of basic programs that will be installed automatically:
 
-* ROS Melodic
 * Gnome-Tweaks
 * hardinfo
 * htop
@@ -13,7 +19,7 @@ List of basic programs that will be installed automatically:
 * Guake
 * Shutter
 
-Execute the script `install_ros.bash` respectively `install_programs.bash` for that.
+Execute the script `install_programs.bash` for that.
 
 ## Manually to install programs
 
