@@ -13,7 +13,7 @@ List of basic programs that will be installed automatically:
 * Guake
 * Shutter
 
-Execute the script `install.bash` for that.
+Execute the script `install_ros.bash` respectively `install_programs.bash` for that.
 
 ## Manually to install programs
 

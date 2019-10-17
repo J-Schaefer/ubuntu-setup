@@ -3,7 +3,7 @@
 OS="$(lsb_release -rs)"
 echo $OS
 
-if [ $OS = "18.04" ]; then
+if [ $OS = "16.04" ]; then
     
     sudo apt install build-essential cmake git libpoco-dev libeigen3-dev
     
