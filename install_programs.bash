@@ -1,5 +1,8 @@
 #!/bin/bash
 
+OS="$(lsb_release -rs)"
+echo $OS
+
 echo "Performing upgrade"
 sudo apt update
 sudo apt full-upgrade
@@ -7,7 +10,13 @@ sudo apt full-upgrade
 echo ""
 echo "--------------------------------------------------"
 echo "--------------------------------------------------"
-echo "Installing guake"
+if [ $OS = "18.04" ]; then
+    echo "Installing guake from repository"
+    sudo add-apt-repository ppa:linuxuprising/guake
+    sudo apt-get update
+else
+    echo "Installing guake from default source"
+fi
 sudo apt install guake
 sudo cp /usr/share/applications/guake.desktop /etc/xdg/autostart/
 echo "--------------------------------------------------"
