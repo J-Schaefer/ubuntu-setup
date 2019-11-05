@@ -93,9 +93,8 @@ In Gnome Tweaks in `Windows` enable `Windows Action Key`
 
 ## Set up Thunderbird
 
-* Signatures
+* Create/set up signatures
 * Change Account labels
-* E-Mail-Signaturen einstellen
 * Advanced --> Config Editor...
   * Separator entfernen: `mail.identity.default.suppress_signature_separator` auf `true`
   * Change default order
