@@ -13,7 +13,7 @@ echo "--------------------------------------------------"
 if [ $OS = "18.04" ]; then
     echo "Installing guake from repository"
     sudo add-apt-repository ppa:linuxuprising/guake
-    sudo apt-get update
+    sudo apt update
 else
     echo "Installing guake from default source"
 fi
