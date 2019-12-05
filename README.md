@@ -41,7 +41,7 @@ Execute the script `install_programs.bash` for that.
 First install the package Chrome-Gnome-Shell when you're using Chrome: <https://wiki.gnome.org/Projects/GnomeShellIntegrationForChrome/Installation> using
 
 ````bash
-sudo apt-get install chrome-gnome-shell
+sudo apt install chrome-gnome-shell
 ````
 
 Next install the necessary browser extension:

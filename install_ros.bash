@@ -48,6 +48,7 @@ if [ $OS = "18.04" ]; then
         
         rosdep update
         
+        source /opt/ros/medlodic/setup.bash
         echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
         source ~/.bashrc
         echo $ROS_PACKAGE_PATH
@@ -82,7 +83,7 @@ if [ $OS = "18.04" ]; then
     echo "--------------------------------------------------"
     echo ""
     
-elif [ $OS = "16.04" ]; then
+    elif [ $OS = "16.04" ]; then
     
     echo ""
     echo "--------------------------------------------------"
@@ -124,6 +125,7 @@ elif [ $OS = "16.04" ]; then
         
         rosdep update
         
+        source /opt/ros/kinetic/setup.bash
         echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
         source ~/.bashrc
         echo $ROS_PACKAGE_PATH
