@@ -11,12 +11,11 @@ To install the Frank_ROS stuff, execute the script `install_franka.bash`.
 
 List of basic programs that will be installed automatically:
 
-* Gnome-Tweaks
-* hardinfo
-* htop
-* Seafile client
-* Shutter
 * Guake
+* Gnome-Tweaks
+* htop
+* hardinfo
+* Seafile client
 * Shutter
 
 Execute the script `install_programs.bash` for that.
@@ -54,7 +53,7 @@ Firefox:
 
 Then you can install the gnome extensions
 
-* Multi Monitors Add-On <https://wiki.gnome.org/Projects/GnomeShellIntegrationForChrome/Installation>
+* Multi Monitors Add-On <https://extensions.gnome.org/extension/921/multi-monitors-add-on/>
 * Enable scrolling through open windows:
   
   ````bash
