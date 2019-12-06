@@ -61,6 +61,7 @@ Then you can install the gnome extensions
   ````
 
 * User Themes <https://extensions.gnome.org/extension/19/user-themes/>
+* GTile <https://extensions.gnome.org/extension/28/gtile/>
 
 ### Set up Ubuntu
 
