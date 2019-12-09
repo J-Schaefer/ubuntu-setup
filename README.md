@@ -31,7 +31,7 @@ Execute the script `install_programs.bash` for that.
   * Add js content to Better BibTeX --> Advanced --> Postscript
   * Tick the option `Deterministically order references and field...`
   * Change Skip word list
-  * AFTER that add your account or your items
+  * AFTER that add your account for synchronisation or your items
   * Otherwise refresh bibtex keys
 * LaTeX: <https://www.tug.org/texlive/acquire-netinstall.html>
 * Telegram: <https://telegram.org/apps>
