@@ -60,7 +60,7 @@ Then you can install the gnome extensions
   gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
   ````
 
-* User Themes <https://extensions.gnome.org/extension/19/user-themes/>
+* Workspace Grid <https://extensions.gnome.org/extension/484/workspace-grid/>
 * GTile <https://extensions.gnome.org/extension/28/gtile/>
 
 ### Set up Ubuntu
