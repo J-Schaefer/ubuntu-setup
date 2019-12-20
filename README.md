@@ -13,6 +13,7 @@ List of basic programs that will be installed automatically:
 
 * Guake
 * Gnome-Tweaks
+* Grub-customizer
 * htop
 * hardinfo
 * Seafile client
