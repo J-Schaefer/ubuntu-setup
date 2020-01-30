@@ -37,7 +37,7 @@ echo ""
 echo ""
 echo "--------------------------------------------------"
 echo "--------------------------------------------------"
-echo "Installing gnome tweak tool"
+echo "Installing grub-customizer"
 sudo apt-add-repository ppa:danielrichter2007/grub-customizer
 sudo apt install grub-customizer
 echo "--------------------------------------------------"
@@ -63,14 +63,11 @@ echo "--------------------------------------------------"
 echo "--------------------------------------------------"
 echo ""
 
-
 echo ""
 echo "--------------------------------------------------"
 echo "--------------------------------------------------"
-echo "Installing Seafile Gui"
-sudo add-apt-repository ppa:seafile/seafile-client
-sudo apt update
-sudo apt install seafile-gui
+echo "Installing net-tools"
+sudo apt install net-tools
 echo "--------------------------------------------------"
 echo "--------------------------------------------------"
 echo ""

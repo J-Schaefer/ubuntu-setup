@@ -16,7 +16,7 @@ List of basic programs that will be installed automatically:
 * Grub-customizer
 * htop
 * hardinfo
-* Seafile client
+* net-tools
 * Shutter
 
 Execute the script `install_programs.bash` for that.
