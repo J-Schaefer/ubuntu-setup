@@ -1,4 +1,4 @@
-# Setting up a new computer with Ubuntu
+# Setting up a new computer with Ubuntu and basic bug fixes
 
 ## Setting up ROS
 
@@ -13,9 +13,10 @@ List of basic programs that will be installed automatically:
 
 * Guake
 * Gnome-Tweaks
+* Grub-customizer
 * htop
 * hardinfo
-* Seafile client
+* net-tools
 * Shutter
 
 Execute the script `install_programs.bash` for that.
@@ -31,7 +32,7 @@ Execute the script `install_programs.bash` for that.
   * Add js content to Better BibTeX --> Advanced --> Postscript
   * Tick the option `Deterministically order references and field...`
   * Change Skip word list
-  * AFTER that add your account or your items
+  * AFTER that add your account for synchronisation or your items
   * Otherwise refresh bibtex keys
 * LaTeX: <https://www.tug.org/texlive/acquire-netinstall.html>
 * Telegram: <https://telegram.org/apps>
@@ -104,3 +105,4 @@ In Gnome Tweaks in `Windows` enable `Windows Action Key`
     * `mailnews.default_sort_type` = `18`
 * Composition
   * Remove tick at `Use Paragraph format instead of Body Text by default`
+* Install: <https://addons.thunderbird.net/de/thunderbird/addon/threadvis/>
