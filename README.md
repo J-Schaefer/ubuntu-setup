@@ -1,4 +1,4 @@
-# Setting up a new computer with Ubuntu
+# Setting up a new computer with Ubuntu and basic bug fixes
 
 ## Setting up ROS
 
@@ -105,3 +105,4 @@ In Gnome Tweaks in `Windows` enable `Windows Action Key`
     * `mailnews.default_sort_type` = `18`
 * Composition
   * Remove tick at `Use Paragraph format instead of Body Text by default`
+* Install: <https://addons.thunderbird.net/de/thunderbird/addon/threadvis/>
