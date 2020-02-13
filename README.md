@@ -26,14 +26,6 @@ Execute the script `install_programs.bash` for that.
 * VS Code: <https://code.visualstudio.com>
   * Install or sync extensions
 * Zotero: <https://www.zotero.org/download/>
-  * Start script `zotero`
-  * Install extension <https://github.com/retorquere/zotero-better-bibtex/releases>
-  * Change Key Format to : `[auth:nopunctordash][authForeIni][year][month:capitalize][shorttitle3_3]`
-  * Add js content to Better BibTeX --> Advanced --> Postscript
-  * Tick the option `Deterministically order references and field...`
-  * Change Skip word list
-  * AFTER that add your account for synchronisation or your items
-  * Otherwise refresh bibtex keys
 * LaTeX: <https://www.tug.org/texlive/acquire-netinstall.html>
 * Telegram: <https://telegram.org/apps>
 
