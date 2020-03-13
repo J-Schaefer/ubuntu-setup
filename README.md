@@ -12,6 +12,7 @@ To install the Frank_ROS stuff, execute the script `install_franka.bash`.
 List of basic programs that will be installed automatically:
 
 * Guake
+* Terminator
 * Gnome-Tweaks
 * Grub-customizer
 * htop
