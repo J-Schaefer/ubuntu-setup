@@ -58,7 +58,7 @@ Then you can install the gnome extensions
 
 ### Set up Ubuntu
 
-#### Enable asterisks in passwords
+#### Enable asterisks when entering passwords in the Command Line
 
 Enter
 
@@ -83,6 +83,10 @@ and save the file.
 #### Enable Super key for drag and drop
 
 In Gnome Tweaks in `Windows` enable `Windows Action Key`
+
+#### Changing colour scheme of Terminator
+
+To make terminator the same colour as the Gnome Terminal, change the font colour to white and the background colour to `#2D0922`.
 
 ## Set up Thunderbird
 
