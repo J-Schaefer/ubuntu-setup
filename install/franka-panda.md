@@ -29,6 +29,15 @@ catkin build -DCMAKE_BUILD_TYPE=Release
 source devel/setup.sh
 ```
 
+## Install missing packages
+
+```bash
+# MoveIt Commander
+sudo apt install ros-melodic-moveit-commander
+# Joint trajectory controller
+sudo apt install ros-melodic-joint-trajectory-controller
+```
+
 ## Xstow
 
 Installation via:
