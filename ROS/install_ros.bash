@@ -15,7 +15,7 @@ if [ $OS = "18.04" ]; then
     echo "--------------------------------------------------"
     echo "--------------------------------------------------"
     echo ""
-    cd ~
+    cd $HOME
     
     echo "Looking for ROS Melodic installation"
     
@@ -44,14 +44,15 @@ if [ $OS = "18.04" ]; then
         
         sudo apt install ros-melodic-desktop-full
         
-        sudo rosdep init
-        
-        rosdep update
+        sudo apt install python-catkin-tools
         
         source /opt/ros/medlodic/setup.bash
-        echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
-        source ~/.bashrc
+        echo "source /opt/ros/melodic/setup.bash" >> $HOME/.bashrc
+        source $HOME/.bashrc
         echo $ROS_PACKAGE_PATH
+        
+        sudo rosdep init
+        rosdep update
         
         echo ""
         echo "--------------------------------------------------"
@@ -65,13 +66,13 @@ if [ $OS = "18.04" ]; then
         echo "--------------------------------------------------"
         echo "Setting up catkin workspace"
         
-        mkdir -p ~/catkin_ws/src
-        cd ~/catkin_ws
-        catkin_make
+        mkdir -p $HOME/ros_ws/catkin_ws/src
+        cd $HOME/ros_ws/catkin_ws
+        catkin build
         
         source devel/setup.bash
         echo "Writing this to the .bashrc"
-        sudo echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+        sudo echo "source $HOME/ros_ws/catkin_ws/devel/setup.bash" >> $HOME/.bashrc
         
     fi
     
@@ -92,7 +93,7 @@ if [ $OS = "18.04" ]; then
     echo "--------------------------------------------------"
     echo "--------------------------------------------------"
     echo ""
-    cd ~
+    cd $HOME
     
     echo "Looking for ROS Kinetic installation"
     
@@ -121,14 +122,15 @@ if [ $OS = "18.04" ]; then
         
         sudo apt-get install ros-kinetic-desktop-full
         
-        sudo rosdep init
-        
-        rosdep update
+        sudo apt-get install python-catkin-tools
         
         source /opt/ros/kinetic/setup.bash
-        echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
-        source ~/.bashrc
+        echo "source /opt/ros/kinetic/setup.bash" >> $HOME/.bashrc
+        source $HOME/.bashrc
         echo $ROS_PACKAGE_PATH
+        
+        sudo rosdep init
+        rosdep update
         
         echo ""
         echo "--------------------------------------------------"
@@ -142,13 +144,13 @@ if [ $OS = "18.04" ]; then
         echo "--------------------------------------------------"
         echo "Setting up catkin workspace"
         
-        mkdir -p ~/catkin_ws/src
-        cd ~/catkin_ws
-        catkin_make
+        mkdir -p $HOME/ros_ws/catkin_ws/src
+        cd $HOME/ros_ws/catkin_ws
+        catkin build
         
         source devel/setup.bash
         echo "Writing this to the .bashrc"
-        sudo echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+        sudo echo "source $HOME/ros_ws/catkin_ws/devel/setup.bash" >> $HOME/.bashrc
         
     fi
     
