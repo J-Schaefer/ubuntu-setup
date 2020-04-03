@@ -5,7 +5,7 @@ To install the program move the folder into the desired directory and start the 
 
 ## LaTeX
 
-To use it with LaTeX, the extension _Better BibTeX for Zotero_ should be installed (see [here](https://github.com/retorquere/zotero-better-bibtex/releases>). After downloading the file the Add-On can be installed in Zotero with _Tools &rarr; Add-ons_.
+To use it with LaTeX, the extension _Better BibTeX for Zotero_ should be installed (see [here](https://github.com/retorquere/zotero-better-bibtex/releases)). After downloading the file the Add-On can be installed in Zotero with _Tools &rarr; Add-ons_.
 
 There are some improvements respectively bug fixes, that can improve the overall experience.
 
