@@ -80,9 +80,9 @@ wget http://example.com/example.tar.gz
 tar -xzf example.tar.gz
 cd example
 ./configure --prefix=${HOME}/local/DIR/example
-make -j10
+make -j$((`nproc`+1)) # build with one more thread than the CPU offers
 make install
-Xstow it!
+# Xstow it!
 cd ~/local/DIR
 xstow example
 ```
