@@ -87,7 +87,7 @@ cd ~/local/DIR
 xstow example
 ```
 
-The last step creates symbolic links one directory up, in effect enabling the program
+The last step creates symbolic links one directory up, in effect enabling the program.
 Now the example project is as useful as if it would be installed in the system directories.
 
 To disable example:
